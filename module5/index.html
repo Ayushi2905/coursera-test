@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type= "text/css" href= "style5.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+        <title>David Chu's China BISTRO</title>
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="pull-left visible-md visible-lg">
+                            <div id="logo-img" alt="Logo image"></div>
+                        </a>
+                        <div class ="navbar-brand">
+                            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+                            <p>
+                                <img src="cera/star-k-logo.png" alt="Kosher certification">
+                                <span>Kosher Certified</span>
+                            </p>
+                        </div>
+                        <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div id="collapsable-nav" class="collapsable-navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <li id="navHomeButton" class="visible-xs active">
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true" style="font-size: 48px;"></i><hr class="hidden-xs">Home</a>
+                            </li>
+                            <li id="navMenuButton">
+                                <a href="#" onclick="$dc.loadMenuCategories();">
+                                    <i class="fa fa-cutlery" aria-hidden="true" style="font-size: 48px;"></i><hr class="hidden-xs">Menu</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-info" aria-hidden="true" style="font-size: 48px;"></i><hr class="hidden-xs">About
+                                </a>
+                            </li>
+                            <li>
+                            <a href="#">
+                                <i class="fa fa-certificate" aria-hidden="true" style="font-size: 48px;"></i><hr class="hidden-xs">Awards
+                            </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:410-602-5008">
+                                    <span>410-602-5008</span>
+                                </a><div>*we Deliver</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="call-btn"class="visible-xs">
+            <a class="btn" href="tel:410-602-5008">
+                <i class="fa fa-phone" style="font-size:48px;"></i>410-602-5008
+            </a>
+        </div>
+        <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+        <div id="main-content" class="container"></div>
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="hours" class="col-sm-4">
+                        <span>HOURS:</span><br>
+                        Sun-Thurs: 11:15am - 10:00pm<br>
+                        Fri: 11:15am - 2:30pm<br>
+                        Saturday closed
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span>Address: </span><br>
+                        7103 Reistrestown Road <br>
+                        Baltimore, MD 21215
+                        <p> * Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="testimonials" class="col-sm-4">
+                        <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+                        <p>"Amazing food! Great services !could'nt ask for more.I'll be back here again.</p>
+                    </section>
+                </div>
+                <div class="text-center">&copy; Copyright David Chu's China Bistro 2020 </div>
+            </div>
+        </footer>
+        <script src="ajax-utils.js"></script>
+        <script src="script5.js"></script>
+    </body>
+    </html>
